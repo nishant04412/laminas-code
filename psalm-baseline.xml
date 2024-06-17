@@ -37,10 +37,10 @@
   </file>
   <file src="src/Generator/AbstractMemberGenerator.php">
     <PossiblyUnusedReturnValue>
-      <code>AbstractMemberGenerator</code>
-      <code>AbstractMemberGenerator</code>
-      <code>AbstractMemberGenerator</code>
-      <code>AbstractMemberGenerator</code>
+      <code>static</code>
+      <code>static</code>
+      <code>static</code>
+      <code>static</code>
     </PossiblyUnusedReturnValue>
     <RedundantCastGivenDocblockType>
       <code>(string) $name</code>
