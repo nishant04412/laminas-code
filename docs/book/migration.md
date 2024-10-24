@@ -93,7 +93,6 @@ $parameterGenerator->setType('*'); // invalid (throws exception)
 $parameterGenerator->setType('\\'); // invalid (throws exception)
 ```
 
-
 ## Generated type-hints are now prefixed by `"\"`
 
 Generated type-hints are now prefixed with the `NAMESPACE_SEPARATOR`,

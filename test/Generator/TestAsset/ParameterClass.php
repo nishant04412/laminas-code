@@ -75,7 +75,7 @@ class ParameterClass
 
     }
 
-    public function defaultObjectEqualsNullAndNotOptional(\stdClass $a = null, $b)
+    public function defaultObjectEqualsNullAndNotOptional(?\stdClass $a, $b)
     {
 
     }
