@@ -32,7 +32,7 @@ class TestSampleSingleClass
     protected function withParamsAndReturnType(
         $mixed,
         array $array,
-        callable $callable = null,
+        ?callable $callable = null,
         ?int $int = 0
     ): bool {
         /* test test */

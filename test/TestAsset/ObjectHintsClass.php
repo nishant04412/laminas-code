@@ -12,7 +12,7 @@ class ObjectHintsClass extends EmptyClass
     {
     }
 
-    public function nullDefaultObjectParameter(object $foo = null)
+    public function nullDefaultObjectParameter(?object $foo = null)
     {
     }
 

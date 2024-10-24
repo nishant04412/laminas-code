@@ -12,7 +12,7 @@ class IterableHintsClass extends EmptyClass
     {
     }
 
-    public function nullDefaultIterableParameter(iterable $foo = null)
+    public function nullDefaultIterableParameter(?iterable $foo = null)
     {
     }
 

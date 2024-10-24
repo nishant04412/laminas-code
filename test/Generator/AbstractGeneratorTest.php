@@ -14,11 +14,20 @@ class AbstractGeneratorTest extends TestCase
 {
     public function testConstructor()
     {
-        $generator = $this->getMockForAbstractClass(AbstractGenerator::class, [
+        $generator = $this->getMockForAbstractClass(
+            AbstractGenerator::class,
             [
-                'indentation' => 'foo',
+                [
+                    'indentation' => 'foo',
+                ],
             ],
-        ]);
+            '',
+            true,
+            true,
+            true,
+            [],
+            false
+        );
 
         self::assertInstanceOf(GeneratorInterface::class, $generator);
         self::assertSame('foo', $generator->getIndentation());
